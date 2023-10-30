@@ -1,0 +1,13 @@
+SizedBox(height: 20),
+            Container(
+              margin: EdgeInsets.only(left: 20),
+              alignment: Alignment.centerLeft, // Alinea el texto "Historial" a la izquierda
+              child: Text(
+                'Historial',
+                style: TextStyle(
+                  color: Color(0xFF6e031c),
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
